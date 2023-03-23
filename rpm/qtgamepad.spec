@@ -46,8 +46,7 @@ touch .git
 popd
 
 # have to restart build several times due to bug in sb2
-%make_build -C %{_target_platform}
-  -k || chmod -R ugo+r . || true
+%make_build -C %{_target_platform} -k || chmod -R ugo+r . || true
 %make_build -C %{_target_platform}
 chmod -R ugo+r .
 
