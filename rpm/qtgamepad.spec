@@ -38,10 +38,10 @@ Requires: opt-qt5-qtdeclarative-devel%{?_isa}
 
 
 %build
-mkdir %{_target_platform}
-pushd %{_target_platform}
 export QTDIR=%{_opt_qt5_prefix}
 touch .git
+mkdir %{_target_platform}
+pushd %{_target_platform}
 %{opt_qmake_qt5} ..
 popd
 
