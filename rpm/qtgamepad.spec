@@ -17,7 +17,6 @@ BuildRequires: opt-qt5-qtbase-static >= %{qt_version}
 BuildRequires: opt-qt5-qtbase-private-devel
 %{?_opt_qt5:Requires: %{_opt_qt5}%{?_isa} = %{_opt_qt5_version}}
 BuildRequires: opt-qt5-qtdeclarative-devel >= %{qt_version}
-BuildRequires: pkgconfig(xrender)
 BuildRequires: pkgconfig(libudev)
 BuildRequires: pkgconfig(sdl2)
 
