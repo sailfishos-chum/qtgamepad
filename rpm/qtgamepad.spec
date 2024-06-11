@@ -1,8 +1,8 @@
-%global qt_version 5.15.10
+%global qt_version 5.15.14
 
 Summary: Qt5 - Gamepad component
 Name:    opt-qt5-qtgamepad
-Version: 5.15.10
+Version: 5.15.14
 Release: 1%{?dist}
 
 # See LGPL_EXCEPTIONS.txt, LICENSE.GPL3, respectively, for exception details
